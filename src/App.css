@@ -1,0 +1,71 @@
+body {
+    background-image: url('picture.webp');
+    background-size: 100%;
+
+    
+  }
+  
+.App {
+  text-align: left;
+  background-color: rgba(122, 130, 128, 0.822);
+  font-size: medium;
+  color:#000000;
+  margin: 4px;
+  font-size: 12px;
+
+}
+.cont{
+  display: flex;
+}
+.hey{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.hey h1{
+  margin: 23px;
+  background: local;
+}
+#input{
+  background-color: rgb(220, 248, 248);
+  color:black;
+  text-align: center;
+}
+.btn{
+  color: #1385a4;
+ 
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
